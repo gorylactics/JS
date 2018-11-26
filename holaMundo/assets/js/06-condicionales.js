@@ -37,7 +37,7 @@ distinto !=
 //     console.log("b es 20");
 // };
 
-var edadLimite = 18;
+var edadLimite = 34;
 var nombre = "adrian miranda";
 
 if(edadLimite >= 18 && edadLimite <= 36){
