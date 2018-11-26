@@ -37,17 +37,17 @@ distinto !=
 //     console.log("b es 20");
 // };
 
-var edadLimite = 3;
+var edadLimite = 18;
+var nombre = "adrian miranda";
 
-
-if(edadLimite >= 18){
-    console.log("tiene edad minima");
+if(edadLimite >= 18 && edadLimite <= 36){
+    console.log("cumple requisito base");
     if(edadLimite <30){
         console.log("rango 1")
     }else if (edadLimite <=35){
         console.log("rango 2")
-    }else if (edadLimite > 36){
-        console.log("sobrepasa la edad limite")
+    }else if (edadLimite == 36){
+        console.log("pero ya no califica por edad")
     } 
 }else{console.log("no puede participar")}
 
