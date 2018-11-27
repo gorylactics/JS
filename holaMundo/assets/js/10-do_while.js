@@ -14,11 +14,21 @@ do{
 
 */
 
+/* podemos dar la orden para salir de un buble con la insercion de un 
+
+if(condicion de la variable para terminarla)
+    break; 
+    
+Y se coloca luego del do para que de esa manera se ejecute correctamente el corte , de lo contrario el bucle termina con un dato menos de lo que deberia*/
+
+
 var year = 20;
 
 do{
     console.log("estas en tus " + year + " años");
-
+    if(year==28)
+        break;
     year++;
+    
 
-}while(year <= 30);
+}while(year <= 30)
