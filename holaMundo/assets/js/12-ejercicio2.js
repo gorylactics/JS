@@ -4,7 +4,7 @@ var suma = 0;
 var contador = 0;
 
 do{
-    var numero = parseInt(prompt(' introduce numeros positivos o negativos' , 0));
+    var numero = parseInt(prompt('introduce numeros positivos y termina el proceso con uno negativo' , 0));
     
     if(isNaN(numero,0)){
         numero = 0;
@@ -16,4 +16,7 @@ do{
     console.log('ingreso numero ' + contador);
 
 }while(numero >= 0);
+
+    console.log('la suma de todos los numeros ingresados es ' + suma);
+    console.log('la media de todos los numeros ingresados es ' + (suma/contador));
 
