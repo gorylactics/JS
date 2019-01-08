@@ -17,5 +17,7 @@ var resultadoAlert = 'la suma es = '+(numero1+numero2)+'\n'+
                 'la resta es = '+(numero1-numero2)+'\n'+
                 'la multiplicacion es = '+(numero1*numero2)+'\n'+
                 'la division es = '+(numero1%numero2);        
+
 alert(resultadoAlert);
+
 document.write(resultado);
