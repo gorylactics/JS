@@ -7,7 +7,7 @@ function calculadora(numero1 ,numero2){
     console.log('multiplicacion '+ (numero1*numero2));
     console.log('division '+ (numero1/numero2));
     console.log('********************************')
-}
+};
 
 
 // se esta llamando los parametros pero una function se puede usar dentro de un loop tambien
