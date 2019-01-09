@@ -1,7 +1,7 @@
 'use strict'
 
 // los parametros rest y spread sirven para mostar un conjunto de elementos dentro de un array
-//  para usarlo se usan ... ya sea adelante de un parametro o al final dependiendo del lugar es por donde se mostrara el array
+//  para usarlo se usan ... por delante
 
 function listadoFrutas(fruta1 , fruta2 , ...restoFrutal){
     console.log('la fruta es : ' , fruta1);
