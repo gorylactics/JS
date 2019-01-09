@@ -8,7 +8,7 @@ function calculadora(){
     // conjunto de instrucciones de lo que debe hacer la function
     document.write('soy la calculadora <br/>');
     
-    //el return no se muestra en consola salvo que llamemos a la function desde ahi
+    //el return no se muestra en consola salvo que llamemos a la function desde la consola
     return ('soy la calculadora de return');
 };
 
