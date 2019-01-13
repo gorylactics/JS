@@ -12,4 +12,10 @@ var ejemplo2= new Array(1,2,3,'etc');
 // los array se miden por indice el cual comienza por 0
 // para acceder a un dato especifico de un array cuando hacemos el llamado en el nombre de la variable se especifica mediante corchetes
 
-console.log(ejemplo1[3]); 
+var elemento = parseInt(prompt('que numero de elemento quieres ' ));
+
+if(elemento >= ejemplo1.length){
+    alert('escoge un numero menor a ' + ejemplo1.length );
+}else{
+    alert('el elemento es ' + ejemplo1[elemento]);
+};
