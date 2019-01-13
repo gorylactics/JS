@@ -30,3 +30,15 @@ console.log(busqueda);
 
 var busqueda = texto1.includes('texto'); // busca una palabra en especifico en todo el texto y devuelve true si la encuentra y false si no la encuentra
 console.log(busqueda);
+
+var busqueda = texto1.replace('texto' , 'sexo'); // reemplaza el texto por lo que queramos
+console.log(busqueda);
+
+var busqueda = texto1.slice(2,10); // corta el texto desde donde le digamos
+console.log(busqueda);
+
+var busqueda = texto1.split(' '); // crea un array con todas las palabras del texto
+console.log(busqueda);
+
+var busqueda = texto1.trim(); // corta los espacios por delante y por detras  , se usa para cuando se guardan passwords
+console.log(busqueda);
