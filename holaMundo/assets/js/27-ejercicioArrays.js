@@ -38,4 +38,13 @@ mostrarArray(numeros , 'sentido inverso');
 // mostrar cantidad de elementos de un array
 document.write('<h1> el array posee: ' +  numeros.length + 'elementos');
 
+// busqueda 
+var busqueda = parseInt(prompt('busca un numero'));
+var posicion = numeros.findIndex(numero => numero == busqueda);
 
+if(posicion && posicion != -1){
+    document.write('encontrado');
+    document.write('posicion de la busqueda ' + posicion);
+}else{
+    document.write('no encontrado');
+};
