@@ -34,3 +34,8 @@ mostrarArray(numeros , 'ordenado');
 // invertir y mostrar
 numeros.reverse();
 mostrarArray(numeros , 'sentido inverso');
+
+// mostrar cantidad de elementos de un array
+document.write('<h1> el array posee: ' +  numeros.length + 'elementos');
+
+
