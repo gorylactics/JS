@@ -32,3 +32,5 @@ numeros.sort(function(a , b){
 mostrarArray(numeros , 'ordenado');
 
 // invertir y mostrar
+numeros.reverse();
+mostrarArray(numeros , 'sentido inverso');
