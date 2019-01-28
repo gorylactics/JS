@@ -14,10 +14,16 @@ window.addEventListener('load', function(){
 
     }, 700);
 
-    var stop = document.querySelector('#boton');
+    var stop = document.querySelector('#stop');
 
     stop.addEventListener('click', function(){
         alert('se detuvo la variable tiempo')
+        clearInterval(tiempo);
+
+    });
+    var start = document.querySelector('#start');
+    start.addEventListener('click' , function(){
+        alert('activaste el bucle');
         clearInterval(tiempo);
     });
 }); 
