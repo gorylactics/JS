@@ -12,5 +12,12 @@ window.addEventListener('load', function(){
             titulo.style.fontSize = '50px'
         };
 
-    }, 300)
-});
+    }, 700);
+
+    var stop = document.querySelector('#boton');
+
+    stop.addEventListener('click', function(){
+        alert('se detuvo la variable tiempo')
+        clearInterval(tiempo);
+    });
+}); 
